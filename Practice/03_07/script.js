@@ -28,7 +28,21 @@ const room = {
   NumberOfPersons: 1,
   door: 1,
   windows: 2, 
-},
+  },
+
+  doorOpen: false,
+  doorHandle: function (OpenDoor) {
+  this.doorOpen = OpenDoor;
+  },
+  newtechnologicalDevices: function (videoGameConsole, computer) {
+    this.technologicalDevices.gameConsole= videoGameConsole;
+    this.technologicalDevices.compu= computer;
+  },
+};
+
+  
+  
+  
 
 
 
