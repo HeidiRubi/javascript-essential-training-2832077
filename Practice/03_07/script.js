@@ -7,3 +7,28 @@
  * - Find an object that has another object inside of it to create a nested object.
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
+
+
+const room = {
+  name: "Elias´s room",
+  furniture: {
+    bed: 1,
+    desk: 2,
+    chairs: 1,
+    bookshelf: 0,
+  },
+  technologicalDevices: {
+    computer: 1,
+    videoGameConsole: 3,
+    tv: 1,
+    printDevice: 1,
+    mouse: 1,
+  },    
+  color: "White",
+  NumberOfPersons: 1,
+  door: 1,
+  windows: 2, 
+},
+
+
+
