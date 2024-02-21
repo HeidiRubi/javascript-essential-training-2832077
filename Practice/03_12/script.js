@@ -6,3 +6,25 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+const jewelry ={
+  type: {
+    short: 5,
+    large: 3,
+  },
+  size: {
+    big: 2,
+    small: 3,
+  },
+  color: {
+    blue: 4,
+    white: 2,
+  },
+  texture: {
+    typeOne: "withSparkles",
+    typeTwo: "bubbles",
+    typeThree: "animalPrint",
+  },
+
+  
+};
